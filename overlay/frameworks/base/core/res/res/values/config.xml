@@ -424,6 +424,4 @@
     <add-resource type="bool" name="config_hasAlertSlider"></add-resource>
     <bool name="config_hasAlertSlider">true</bool>
 
-
-
 </resources>
