@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2014, The Android Open Source Project
+** Copyright 2016, The Paranoid Android Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -17,12 +17,10 @@
 */
 -->
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_height="match_parent"
-              android:layout_width="match_parent">
-
-    <include layout="@layout/switch_bar" />
-
-</LinearLayout>
-
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Alert slider proc nodes paths. -->
+    <add-resource type="string" name="alert_slider_state_path"></add-resource>
+    <string name="alert_slider_state_path">/sys/class/switch/tri-state-key/state</string>
+    <add-resource type="string" name="alert_slider_uevent_match_path"></add-resource>
+    <string name="alert_slider_uevent_match_path">DEVPATH=/devices/virtual/switch/tri-state-key</string>
+</resources>

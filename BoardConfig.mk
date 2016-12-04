@@ -21,7 +21,7 @@
 #
 
 # Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
+#-include device/oppo/common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := OnePlus2,oneplus2
 
@@ -171,7 +171,7 @@ TARGET_NO_RPC := true
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true
-TARGET_USES_IMS := true 
+TARGET_USES_IMS := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
