@@ -74,7 +74,7 @@ public final class Utils {
 
     protected static boolean pickUpEnabled(Context context) {
         return PreferenceManager.getDefaultSharedPreferences(context)
-                .getBoolean(GESTURE_PICK_UP_KEY, false);
+                .getBoolean(PICK_UP_KEY, false);
     }
 
     protected static boolean tiltAlwaysEnabled(Context context) {

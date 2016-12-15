@@ -21,6 +21,7 @@ $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
 # Inherit some common reaper stuff.
 $(call inherit-product, vendor/reaper/config/common_full_phone.mk)
+$(call inherit-product, vendor/reaper/common.mk)
 
 PRODUCT_NAME := reaper_oneplus2
 PRODUCT_DEVICE := oneplus2

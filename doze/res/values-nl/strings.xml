@@ -13,12 +13,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Label for feature switch [CHAR LIMIT=30] -->
-  <string name="switch_bar_on">Aan</string>
-  <!-- Label for feature switch [CHAR LIMIT=30] -->
-  <string name="switch_bar_off">Uit</string>
   <string name="ambient_display_title">Omgevingsdisplay</string>
   <string name="ambient_display_summary">Scherm aan bij het ontvangen van meldingen</string>
+  <string name="always_enabled_title">Altijd inschakelen</string>
+  <string name="always_enabled_summary">Sensoren gebruiken zodra het scherm uit is</string>
   <!-- Tilt sensor -->
   <string name="tilt_sensor_title">Hellingssensor</string>
   <string name="pick_up_title">Oppakken</string>
@@ -32,5 +30,5 @@
   <!-- Help text -->
   <string name="dlg_ok">OK</string>
   <string name="doze_settings_help_title">Help</string>
-  <string name="doze_settings_help_text">Deze functies gebruiken sensoren om een Doze-puls te versturen. De gekozen sensor is alleen ingeschakeld als het apparaat een melding ontvangt. Dit helpt het accugebruik te verminderen. Er is ook een optie om de sensor te activeren zodra het scherm uitschakelt, maar dit leidt tot hoger accugebruik.</string>
+  <string name="doze_settings_help_text">Deze functies gebruiken sensoren om een Doze-puls te versturen. De gekozen sensor is alleen ingeschakeld als het apparaat een melding ontvangt. Dit helpt het batterijgebruik te verminderen. Er is ook een optie om de sensor te activeren zodra het scherm uitschakelt, maar dit leidt tot hoger batterijgebruik.</string>
 </resources>
