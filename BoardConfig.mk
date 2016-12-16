@@ -20,9 +20,6 @@
 # definition file).
 #
 
-# Inherit from oppo-common
-#-include device/oppo/common/BoardConfigCommon.mk
-
 TARGET_OTA_ASSERT_DEVICE := OnePlus2,oneplus2
 
 PLATFORM_PATH := device/oneplus/oneplus2
@@ -228,6 +225,3 @@ BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/cmhw
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 1
-
-# inherit from OnePlus common
--include device/oneplus/common/BoardConfigCommon.mk
