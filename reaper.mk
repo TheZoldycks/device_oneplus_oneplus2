@@ -20,10 +20,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
 # Inherit some common reaper stuff.
-$(call inherit-product, vendor/reaper/config/common_full_phone.mk)
-$(call inherit-product, vendor/reaper/common.mk)
+#$(call inherit-product, vendor/reaper/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
-PRODUCT_NAME := reaper_oneplus2
+PRODUCT_NAME := nitrogen_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
